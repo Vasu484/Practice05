@@ -1,0 +1,29 @@
+#!/bin/bash
+echo "what is your name"
+read name
+echo "what is your age"
+read age
+if [ $age = 25 ]
+then
+echo ""
+elif [ $height == 6ft ]
+then
+echo "Wrong"
+fi
+echo "what is your height"
+read height
+if [ $height = 6ft ]
+then
+echo "right"
+else
+echo "wrong"
+fi
+echo "God father movie review"
+read movie
+if [ $movie = Blockbuster ]
+then
+echo "Right"
+else
+echo "Wrong"
+fi
+
